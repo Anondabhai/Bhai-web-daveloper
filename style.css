@@ -1,0 +1,73 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+h1{
+    font-size:45px;
+}
+.simple{
+    color:orange;
+}
+.half-width{
+    width:40%;
+    float:left;
+    margin-left:5%;
+    padding-left:5%;
+}
+
+.half-width img{
+    width:100%;
+   
+}
+.backg-style{
+    background-image: url(/developer-portfolio/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+   height: 500px;
+}
+
+.btn-style{
+    text-decoration:none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding:10px 20px;
+    border-radius:6px;
+    color:white;
+    font-size:20px;
+}
+
+.dreem-area{
+    background-image: url(developer-portfolio/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.simple-exprinces{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+    margin-left: 2%;
+}
+.exprinces-area{
+    background-image: url(developer-portfolio/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+    
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice:1;
+}
+#sec-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice:1;
+
+}
+
+footer p{
+    text-align:center;
+}
